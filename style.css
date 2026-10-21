@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #1c1c1c;
+    background: #fff;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER */
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header_link {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.header_link.active {
+    color: #d76578;
+    font-weight: 600;
+}
+
+.header_button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header_signup,
+.header_login {
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.header_signup {
+    border: 1px solid #9f9f9f;
+    color: #000;
+    background: #fff;
+}
+
+.header_login {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+/* HOME */
+.home {
+    background-image: url(./pictures/BlurredBG.png);
+    background-repeat: no-repeat;
+    background-position: right top 20px;
+    background-size: auto;
+}
+
+.home_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 0 60px;
+}
+
+.home_content {
+    max-width: 440px;
+}
+
+.home_title {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.15;
+    margin-bottom: 30px;
+}
+
+.home_text {
+    max-width: 360px;
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 80px;
+}
+
+.home_link {
+    display: inline-block;
+    padding: 14px 38px;
+    background: linear-gradient(90deg, #d15083 0%, #d9696b 52%, #e46a48 100%);
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 8px 20px rgba(209, 80, 131, 0.35);
+}
+
+.home_img {
+    width: 560px;
+}
